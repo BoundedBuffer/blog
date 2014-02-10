@@ -1,0 +1,24 @@
+-classpath
+'/Users/robaustin/IdeaProjects/blog/target/classes:/Users/robaustin/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar:/Users/robaustin/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar:/Users/robaustin/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/robaustin/IdeaProjects/blog/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2014. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/robaustin/IdeaProjects/blog/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'blog 1.0.0 API'
+-linkoffline
+'http://docs.oracle.com/javase/6/docs/api' '/Users/robaustin/IdeaProjects/blog/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'blog 1.0.0 API'
