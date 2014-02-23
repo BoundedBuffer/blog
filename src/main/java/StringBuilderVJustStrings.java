@@ -3,13 +3,19 @@
  */
 public class StringBuilderVJustStrings {
 
-    public void s1(int value) {
+public static void main() {
+    new StringBuilderVJustStrings().viaStringConcat(1);
+    new StringBuilderVJustStrings().vaiStringBuilder(1);
+}
 
-        String result =  "helllo, its "+value+" world";
-        System.out.print(result);
-    }
+public void viaStringConcat(int value) {
+    String result = "helllo, its " + value + " world";
+    System.out.print(result);
+}
 
-    public static void main() {
-         new StringBuilderVJustStrings().s1( 1);
-    }
+public void vaiStringBuilder(int value) {
+    String result = new StringBuffer("hello, its ").append(value).append(" world").toString();
+    System.out.print(result);
+}
+
 }
